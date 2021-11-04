@@ -1,0 +1,16 @@
+/* CSS personalitzat sense PostCSS */
+
+@font-face {
+    font-family: 'Sorts Mill Goudy';
+    src: url(../fonts/SortsMillGoudy-Regular.ttf);
+}
+
+header {
+    background: url('../imatges/fons.jpg') center center no-repeat;
+}
+
+#quote {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: xx-large;
+    
+}
