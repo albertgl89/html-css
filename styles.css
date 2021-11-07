@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS personalitzat */
+
+@font-face {
+    font-family: 'Sorts Mill Goudy';
+    src: url(../fonts/SortsMillGoudy-Regular.ttf);
+}
+
+header {
+    background: url('../imatges/fons.jpg') center center no-repeat;
+}
+
+#quote {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: xx-large;
+    
+}
+
+.intro-text-article {
+    column-count: 2;
+    column-gap: 40px;
+}
